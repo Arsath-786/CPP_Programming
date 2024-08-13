@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float a,b;
+    float c;
+    cout<<"Enter The Value Of a:"<<endl;
+    cin>>a;
+    cout<<"Enter The Value Of b:"<<endl;
+    cin>>b;
+    int choice;
+    cout<<"Enter Your Choice:";
+    cin>>choice;
+    switch(choice){
+        case 1:
+        cout<<"Your Choice Is Addition"<<endl;
+        c=a+b;
+        cout<<c;
+        break;
+        case 2:
+        cout<<"Your Choice Is Subtraction"<<endl;
+        c=a-b;
+        cout<<c;
+        break;
+        case 3:
+        cout<<"Your Choice Is Mulitiplication"<<endl;
+        c=a*b;
+        cout<<c;
+        break;
+        case 4:
+        cout<<"Your Choic Is Division"<<endl;
+        c=a/b;
+        cout<<c;
+        break;
+        defaut:
+        cout<<"Invalid Choice";
+    }
+    return 0;
+}
